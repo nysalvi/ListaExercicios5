@@ -4,8 +4,8 @@ namespace Exercicio9
 {
     class MediaHarmonica
     {
-        float[] valores;
-        float soma, media;
+        public float[] valores;
+         private float soma, media;
         public MediaHarmonica(float[] valores)
         {
             soma = 0;

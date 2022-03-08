@@ -4,7 +4,8 @@ namespace Exercicio6
 {
     class ConversorCParaF
     {
-        float temperaturaF, temperaturaC;
+        private float temperaturaF;
+        public float temperaturaC;
 
         public void converteParaF()
         {

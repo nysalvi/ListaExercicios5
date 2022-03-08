@@ -4,8 +4,8 @@ namespace Exercicio7
 {
     class Salario
     {
-        float vendas, salario, salariofinal, comissao;
-
+        public float vendas, salario, comissao;
+        private float salariofinal;
         public Salario(float vendas, float salario, float comissao)
         {
             this.vendas = vendas;

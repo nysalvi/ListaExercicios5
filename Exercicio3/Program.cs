@@ -4,10 +4,10 @@ namespace Exercicio3
 {
     class Cilindro
     {
-        float raio;
-        float altura;
-        double volume;
-        double pi = Math.PI;
+        public float raio;
+        public float altura;
+        private double volume;
+        private double pi = Math.PI;
         public void calculaAltura()
         {
             volume = raio * raio * pi * altura;

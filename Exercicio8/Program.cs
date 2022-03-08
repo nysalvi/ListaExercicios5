@@ -4,7 +4,8 @@ namespace Exercicio8
 {
     class Lata
     {
-        double raio, altura, volume, pi = Math.PI;
+        public double raio, altura;
+        private double volume, pi = Math.PI;
         public Lata(double raio,double altura)
         {
             this.raio = raio;

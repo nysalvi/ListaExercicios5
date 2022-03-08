@@ -4,8 +4,10 @@ namespace Exercicio4
 {
     class Consumo
     {
-        int kmInicial, kmFinal, kmTotal;
-        float gasolina, litrosPorKm;
+        public int kmInicial, kmFinal;
+        private int kmTotal;
+        private float litrosPorKm;
+        public float gasolina;
         public Consumo(int inicio, int fim, float gasolina)
         {
             kmInicial = inicio;

@@ -4,8 +4,8 @@ namespace Exercicio5
 {
     class Esfera
     {
-        double pi = Math.PI;
-        double raio, volume;
+        private double pi = Math.PI;
+        public double raio, volume;
         
         public Esfera(double raio)
         {
